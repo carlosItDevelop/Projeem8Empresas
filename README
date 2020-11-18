@@ -1,0 +1,282 @@
+INTRODUÇÃO
+
+O PROJEEM é um projeto, que denominei assim, como sigla de "Projeto de Engenharia Estatística e Matemática", pois tenho trabalhado com ele mais como um instrumento de meus estudos das curiosidades sobre os números e eventos aplicados à estatística do que como uma aplicação formalmente estatística e/ou matemática.
+
+Durante muito tempo estudei "os números em movimentos" que é um modo de analisar diversos eventos estatísticos de forma mais intimista, tentando descobrir segredos não revelados, ou mesmo sabidos, da natureza às vezes paradoxal dos números em movimento.
+
+Por que Engenharia Estatística e Matemática?
+
+- Porque usamos a estatística e a matemática para nortear nossas teorias e não nos submetemos 100% às suas fórmulas e teorias pré-estabelecidas. É como se estivéssemos desdobrando suas possibilidades e regras sem, no entanto, confrontá-las desafiando-as.
+
+Alguns eventos estatísticos, e até mesmo algumas regras matemáticas com foco em estatística como o estudo das probabilidades, muitas vezes são tratados de forma fria como se fossem mais uma teoria finita do ramo das ciências exatas.
+
+Isto não acontece com o PROJEEM, que trata todos os eventos estatísticos sob uma ótica de possível otimização constante. A despeito desta audácia, já avançamos sobre várias fronteiras tidas por muitos como intransponível e, por outros, nem exploradas ao máximo.
+
+Daí tratarmos o PROJEEM como um projeto de "ENGENHARIA", onde os limites são explorados e desafiados, sempre sob "os tratados da Estatística e da Matemática".
+...
+
+O PROJEEM é um projeto oriundo de muitos anos de estudos sobre a teoria dos números em movimento, ou por outro lado, o estudo da Estatística voltada para os jogos. Isso tudo baseado em matemática e muitos testes.
+
+Todo o projeto se baseia numa premissa básica, que é óbvio para muita gente, mas que não está muita claro, ou apenas no subconsciente da maioria das pessoas. Apenas algumas mentes treinadas em pensar com lógica observam o que deveria estar bem visível a todos.
+
+Como exemplo, vamos buscar uma amostra bem fácil de deduzir:
+
+Pensemos numa rua movimentada onde passam bastantes carros diariamente. Digamos que alguém queira apostar com você que os próximos 10 (dez) automóveis que passarem terão placas apenas com números pares. O que você faria?
+
+Pensando agora, depois de eu chamar sua atenção, muito provavelmente sua mente já enxergou o óbvio, ou seja; Você tem muito mais chances de ganhar que seu oponente na aposta, certo?
+
+Num segundo momento, digamos que o mesmo apostador queira fazer outra aposta contigo. Ele escolhe as seguintes dezenas para a Sena: 01, 02, 03, 04, 05 e 06 e quer apostar 100 reais dele contra 1 milhão seu se ele ganhar. Você apostaria, mesmo não tendo os 1 milhão para pagá-lo?
+
+Ta pensando, não é mesmo? Mas o seu subconsciente já deu o sinal que sim, você deve apostar, pois lá dentro dele é sugerido que ele jamais ganharia esta aposta.
+
+Bom, este pensamento está no inconsciente de todas as mentes normais, mas apenas as mentes treinadas convivem com ele constantemente e conscientemente.
+
+Poderia dar-lhes mais milhares de exemplos, mas o que importa mesmo nesta introdução do PROJEEM é indicar a vocês que mais importante que saber o que vai dar (o que, em jogo, é basicamente improvável) é sabermos o que, mais do que provavelmente, NÃO dará ou não acontecerá.
+
+Esta é a chave: SABER O QUE NÃO DEVE ACONTECER!
+
+Baseado nesta teoria é que comecei a desenvolver o PROJEEM para fins de jogos de azar (ou sorte, dependendo dos resultados).
+
+
+...
+Capítulo I
+
+
+Fiz um trabalho em C para um grupo que aplicava na Bolsa há tempos atrás.
+Um dia, almoçando com um companheiro do curso de DBA SQL Server, ele me falou de um camarada que queria pagar uma uma boa grana para quem desenvolvesse um desses jogos de azar de computadores em python. 
+
+Depois descobri que o que ele queria mesmo era fazer um decrypt de uns códigos que ele conseguira sei lá como.
+
+Não peguei o "trampo", mas fiquei tentado a fazer um código que desafiasse a lógica dos jogos de azar.
+
+Como disse numa thread do grupo DotNet-Brasil, desde adolescente me apaixonei pela Estatística e pela Matemática. 
+
+...
+
+Estudei um tempo a lógica e, principalmente a falta de lógica de alguns jogos e vi que muitas das teorias que usava no projeto da Bolsa de Valores se aplicavam à minha nova empreitada.
+
+...
+Se derem uma olhada pela net verão que tem muita gente prometendo fortunas com jogos.
+Algumas regras bem "mais ou menos" sobre combinações, e permutas, e arranjos... essas coisas de se apegar apenas à lógica da matemática... 
+
+No entanto, jogos têm mais a ver com estatística do que com a ciência exata atribuída à matemática.
+
+... 
+Sem querer ser desreipeitoso com ninguém, encontrei muita coisa ruim e muita enrolação... É como pirâmides; alguém sempre ganha, pois se assim não fosse ninguém investiria mais. Já caiu no descrédito, mas muita gente ainda cede às tentações da grana alta sem especialização e muito trabalho... mas alguém sempre ganha, no entanto, para tal, muita gente (bem mais dos que os que ganham) ainda perde.
+...
+
+Entretanto, há uma verdade numa teoria simples que alguns jogadores de roletas e outros jogos de cassino elegem como bom método e que não exige desdobramentos;
+
+Imagine um jogo qualquer que tenha uma População Finita igual a 10 e que você queira saber o percentual estimado de acertar um número que será sorteado randomicamente, de forma lícita!? Sabendo-se que cada vez que você acertar ganhará 5 (cinco) vezes o valor que apostar!?
+
+Bom; sabemos que a PROBABILIDADE de você acertar é de 1/10, ou seja 10%. O que não te garante nada além do fato de que você tem mais chances de perder (90%) do que de ganhar.
+
+Mas isso é só um jogo, e em jogos quase tudo é possível?!
+
+Ótimo! 
+
+Uma teoria 100% correta (enquanto teoria) é de que se você for repetindo o mesmo número em suas apostas seguintes, teoricamente, suas chances vão aumentando até que você ganhe (o que é absurdamente bastante provável);
+
+Mas isso pode acontecer em 1 (uma) tentativa ou em 1.000 (mil)...
+
+- Nossa! Em mil tentaivas? Mas com 10 possibilidades eu não passaria de 15 tentativas sem acertar, considerando um desvio padrão absurdo de 50%.
+
+- Eu diria; Jogo é Jogo, amigo!
+
+Apesar de lhe prometer que você, provavelmente, acertaria muito antes de mil tentativas, isso é uma sugestão e não uma garantia.
+
+Ainda assim tem o fato de que você teria perdido tanto que não valeria à pena apostar. Aí é que entram algumas proposições, relativamente corretas, de alguns teóricos da jogatina de plantão; E se você, a cada vez que jogasse, dobrasse a aposta?
+
+Bom; desse jeito você garantiria lucro em qualquer n-ézima vez que acertasse, no entanto de quanto seria o  Capital de Giro de que estamos falando?
+
+
+Como estamos falando de dobrar (razão 2) o valor a cada aposta, então, sob à fórmula da P.G.(Progressão Geométrica) dá para avaliar o tamanho da "encrenca" em que estamos nos metendo, certo?
+
+A expressão geral que defina a Soma de uma P.G. é dada por:
+
+Sn = a1*((q^n-1)/(q-1))
+
+Sendo q = 2, a1 = 1 e (dando uma colher-de-chá ao apostador) vamos dizer que n seja = 15 (ou seja; ele acertaria na 15ª vez que jogasse).
+
+Teríamos, pois:
+
+Sn = 1*((2^15-1)/(2-1))
+
+=> Sn = 1*(32768-1)/1 => R$ 32.767,00. Então?! Tem esse capital de giro para arriscar?
+
+... É isso que deseja?
+...
+
+- Sendo assim não tem uma maneira segura de se ganhar dinheiro com jogos nesta fórmula que tantas pessoas afirmam ser garantida?
+
+- Tem sim... veremos isso em breve!
+
+
+-----------------------
+
+Capítulo II
+
+
+Essa teoria de aumentar o valor das apostas (não necessariamente dobrando) para recuperar a soma gasta em qualquer n-ézimo momento da aplicação e ainda ter lucro não pode ser desprezada. Ela se mostrou dispendiosa, mas é uma conquista no sentido de termos ao menos uma arma contra a lógica de que a "banca" sempre ganha.
+
+Pelo menos em alguns jogos com valores de prêmios pré-fixados, ela se mostra procedente, embora ineficaz.
+Em casos como as loteriais oficiais do governo, isso não se aplica, pois os prêmios são variáveis que dependem de outras variáveis para serem estipulados.
+
+Mas numa aposta de lançamento de dados, roleta, jogo do bicho, etc. a teoria procede quanto à afirmação de que podemos, ao ganhar em um "n" qualquer da aplicação, recuperar todo o investimento e ainda obtermos lucros.
+
+- Bom; mas e essa conta aí acima, com a soma da P.G. gerando um valor absurdo de R$ 32.767,00 em apenas 15 tentativas?
+
+Vamos, pois, começar a trabalhar nosso segundo problema que é a imprevisibilidade do capital de giro, podendo, o mesmo, atingir valores extratosféricos.
+
+É como se tivéssemos uma implementação de 5 processos bem especificados e já tivéssemos cumprido a primeira meta, "matando" três processos.
+
+Pensamos em uma teoria, testamos e obtivemos sucesso nestes 3 processos.
+
+Os outros dois processos seriam; especificar um teto para o capital de giro, e garantir que, alcançado este capital, ainda tivéssemos fôlego para um subsídio.
+
+Um sexto processo, ainda não especificado, seria a otimização da 'aplicação' depois dos processos todos testados e aprovados.
+
+E uma das melhores otimizações pensada é a redução de débitos, mantendo um saldo padrão e constante em cada n-ézimo elemento da P.G.
+
+Existe uma fórmula para fazer isso?
+
+- Existe uma expressão para fazer quase tudo em Estatística, Matemática e, sobretudo, em Programação de Computadores e Processamento de Dados.
+
+Nos aprofundaremos um pouco mais a seguir...
+
+
+----------------
+
+Capítulo III
+
+No capítulo II percebemos três coisas importantes. Duas positivas e uma negativa:
+
+- A negativa era a "improvabilidade" de se calcular e "bancar" um capital de giro para a implementação.
+
+- A primeira coisa positiva era que tínhamos uma teoria que provara ser possível ganhar da banca, ainda que  num cenário de investimento imensurável, sem uma variável que pudesse, a priori, ser controla.
+
+- A segunda coisa positiva era que teorizamos uma técnica de controle de saldo e média de lucro por "n" tentativas. Isso diminuiria, sensivelmente a progressão geométrica que conduzia as somas dos débitos. (vamos demostrar esta técnica no capítulo IV).
+
+O que fazer a partir de agora?
+
+- Criar um algoritmo capaz de controlar a progressão de débitos (soma dos mesmos) que esteja entre as somas de uma P.A. e uma P.G.. Que monta uma quantia bastante grande na redução do (ainda imaginário) capital de giro.
+
+Ainda não alcançamos o apse de nossa teoria, mas já cumprimos mais de 2/3 dos processos propostos.
+
+- Resumindo; temos que manter as chaces de ganhos (pois os ganhos são garantidos) e minimizar as somas dos débitos ao alcançarmos o n-ézimo termo da PG onde ocorrerá o lance premiado.
+
+----------------
+
+Capítulo IV
+
+Vamos nos concentrar em um estudo de caso interessante; O jogo do bicho:
+
+Algumas coisas a saber sobre este jogo:
+
+Existem várias maneiras de se apostar;
+
+1. Milhar na cabeça: Paga R$ 4.000,00 por cada R$ 1,00 apostado e tem um universo de possibilidades de 10 mil milhares, compreendidas entre 0000 e 9999;  
+
+2. Centena na cabeça: Paga R$ 600,00 por cada R$ 1,00 apostado (universo de 1000 possibilidades) 000-999;
+
+3. Dezena na cabeça: Paga R$ 60,00 por cada R$ 1,00 apostado; (univerdo de 100 possibilidades) 00-99;
+
+4. Grupo na cabeça: Paga R$ 18,00 por cada R$ 1,00 apostado; (universo de 25 possibilidades) 01-25;
+
+	Obs.: Notem que a banca também aposta que haverá mais de 4.000 mil apostas feitas (primeiro caso) para cada premiada, correto? Se assim não for eles perdem. Mas é bastante justo, considerando que eles pagam 40% do lucro estimado, independendte de haver ou não muitas relações de mais de 4.000 apostadores por vencedores. Isto prova que eles também apostam. E o que os fazem ganhar muito mais do que perder é que eles conhecem e dominam como ninguém as regras do seu negócio.
+
+	Os bancos oficias também apostam; O Itaú, por exemplo, anunciou um lucro de 11 bilhões nos 10 primeiros meses de 2011, mas eles sempre apostaram, pois nada garantia a eles que haveriam mais depósitos que retiradas, mas empréstimos e aplicações positivas que inadimplentes, etc. Tudo é uma aposta, ainda que baseada no conhecimento que tenhamos sobre o mercado, as tendências econômicas e mesmo o poder de financiamento, barganha ou capital de giro que possamos ter, saber ou dispor.
+
+- Lucro certo só achando ouro no garimpo e sem patrão! Todo o resto é aposta!
+
+A Microsoft, por exemplo, apostou no ambiente gráfico e chegou onde chegou...
+
+Voltando ao nosso estudo de caso:
+
+Tem outras opções de apostas bem variadas e interessantes, mas apresentei as mais comuns. No nosso caso vamos nos ater às apostas do item 4 (Grupo simples na cabeça);
+
+Isso porque analisamos uma característica interessante entre as 4 proposições:
+
+O item 1 (milhar) trabalha com uma distribuição média estimada em 40% para os apostadores (4.000 em 10.000);
+O item 2 (centena) e o 3 (dezena) trabalham com 60% de distribuição média estimada;
+O item 4 Trabalha com 72%, pois paga 18 por 25. 
+
+- Ficamos com o item 4, portanto!
+
+Seguindo nosso raciocínio, que é uma especialização dos métodos propostos por algums que sugeriram a dobra por cada aposta mal-sucedida, vamos criar uma tabela e depois especializá-la:
+
+Teremos a seguinte tabela com as primeiras 7 tentativas, apenas para ilustrar - chamaremos de SB (subperíodo) cada tentativa que fizermos:
+
+SB	Índice	Débito	Soma	Crédito	Saldo	Média/SB
+--------------------------------------------------------
+1	1,00	1,00	1,00	18,00	17,00	17,00
+2	2,00	2,00	3,00	36,00	33,00	16,50
+3	4,00	4,00	7,00	72,00	65,00	21,66	
+4	8,00	8,00	15,00	144,00	129,00	32,25
+5	16,00	16,00	31,00	288,00	257,00	51,40
+6	32,00	32,00	63,00	576,00	513,00	85,50
+7	64,00	64,00	127,00	1152,00	1025,00	146,42
+...	...	...	...	...	...	...
+15	...	...	32.767,00	...	...	
+...
+n	x	n*x	(sa+d)	x*18	(c-s)	(s/n)
+--------------------------------------------------------
+
+
+- Esta era a preposição, que nos levou a especializar o método.
+
+
+Vamos à nossa primeira especialização. Obervem a tabela abaixo:
+
+
+SB	Índice	Débito	Soma	Crédito	Saldo	Média/SB
+--------------------------------------------------------
+1	1,0000	1,0000	1,0000	18,00	17,00	17,00
+2	2,0588	2,0588	3,0588	36,00	34,00	17,00
+3	3,1799	3,1799	6,2385	72,00	51,00	17,00	
+4	4,3669	4,3669	10,605	144,00	68,00	17,00
+5	5,6238	5,6238	16,229	288,00	85,00	17,00
+6	6,9546	6,9547	23,184	125,18	102,00	17,00
+7	8,3637	8,3637	31,548	150,54	119,00	17,00
+...	...	...	...	...	...	...
+15	23,068	23,068	160,23	415,23	255,00	17,00
+...	...	...	...	...	...	...
+n	x	n*x	(sa+d)	x*18	(c-s)	(s/n)
+--------------------------------------------------------
+
+
+=> Algoritmo que monta a tabela acima: https://github.com/carlosItDevelop/PROJEEM/blob/master/codigos/MontaCap.cs.
+
+
+- Voilá! 
+
+Percebam a incrível diferença nas somas dos débitos entre as duas tabelas no 15º Sub-Período!
+
+Enquanto na primeira tabela temos na coluna da Soma um valor extratosférico de R$ 32.767,00 (trinta e dois mil e setecentos e sessenta e sete reais), na segunda tabela (otimizada) temos apenas R$ 160,00 (cento e sessenta reais) na mesma coluna da Soma dos débitos.
+
+- Isto é sensacional!
+
+Este resultado foi obtido pelo algoritmo, cujo código está no arquivo MapaCap.cs, aqui neste repositório, e implementado graças ao estudo exaustivo de métodos de dedução de custos sem redução da margem de acerto.
+
+Esta é a primeira especialização que fizemos na teoria da conquista pela dobra.
+Esta nova tabela eu chamo de RAZAO-PA, pois ela implementa uma espécia de Progressão Aritmética mantendo uma razão constante em sua média de lucro por Sub-Período.
+
+- Explicando o algoritmo:
+
+
+1. Índice: É o valor apostado 'por Grupo' em cada Sub-Período;
+2. Débito: É o produto do Índice pela quantidade de Grupos na Série;
+3. Soma: É o cumulativo de todos os débitos na n-ézima tentativa;
+4. Crédito: É o produto do Índice por 18, valor pago por cada R$ 1,00 apostado;
+5. Saldo: É a diferença (Crédito-Soma) em 'n' tentativas;
+6. Média: É o quociente (Saldo/SB);
+
+- Analisando estes dados, precisávamos criar uma fórmula capaz de nos proporcionar uma média constante para quaisquer 'n' tentativas, como uma razão de uma P.A. (Progressão Aritmética).
+
+Sigamos, pois:  (Continuará)
+
+
+
+
+
+

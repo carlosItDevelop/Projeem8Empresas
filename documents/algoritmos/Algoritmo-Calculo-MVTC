@@ -1,0 +1,32 @@
+Algoritmo para reduzir débito com MVTC.
+
+O que é MVTC?
+
+Trata-se de uma sigla que criei para representar o Máximo Valor Comum dentro de um conjuto de números decimais.
+- Designei como MVTC ao invés de MVC para diferenciar de "Model View Control", então chamo de Máximo Valor Total Comum.
+
+O algoritmo deveria implementar recursividade, mas depois de escrever um monte de linhas de código usando
+uma tabela de banco de dados acabei me complicando.
+
+No caso específico do meu projeto eu trabalho com dois conjuntos:
+
+A => (25 decimais quaisquer);
+B => (Subconjunto com os 18 maiores decimais de A);
+
+E pretendo aplicar o MVTC de maneira análoga a seguinte:
+
+1. Ler o conjunto (A);
+2. Formar um conjunto (B) com os 18 MAIORES valores de (A);
+3. Atribuir à variável 'MVTC' o MENOR valor dentre os 18 elementos de (B); (Flag)
+4. Subtrair de cada um dos 18 elementos de (B) o 'MVTC';
+5. Reformatar o conjunto (A) com os novos elementos de (B) e os 7 de (A) que ficaram fora da interseção (AB)
+(teoricamente os 7 menores de (A) originalmente);
+
+6. Executar os passos de 1 a 5, enquanto MVTC for diferente 0(zero);
+
+Obs.: Para gerar, pela 1ª vez, o conjunto (A) aqui em teste, pode-se usar um gerador randômico
+com range nMim-nMax, por exemplo. Depois aplico o algoritmo ao projeto original, onde estes 25 primeiros
+elementos de (A) vêm de uma regra do negócio.
+
+Abs,
+Carlos

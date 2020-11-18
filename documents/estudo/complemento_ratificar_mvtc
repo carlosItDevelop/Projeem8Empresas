@@ -1,0 +1,76 @@
+MVTC - Máximo Valor Total Comum
+
+Implementei algo muito interessante, que vem de encontro a algo que eu buscava há tempos, que era a 
+possibilidade de não jogar uma quantidade "x" que só serviria para trocar moeda.
+
+Esta implementação vislumbra 3 grandes conquistas;
+
+	1. Investir o mínimo possível, sem necessidade, mantendo o Capital de Giro (liquidez) enxuto;
+	2. Finalmente conceber, na prática, o Capital Subsidiário, que seria incrementado sempre nestas 
+economias conseguidas com a NÃO capitalização da(s) série(s) Ioiô, aquela(s) que apontam X para débito e o 
+mesmo X para crédito. 
+
+	3. Lucro extra com a premiação de um grupo fora da série de grupos onde fora aplicada o MVTC.
+
+Na prática a coisa funciona mais ou menos da seguinte maneira:
+
+	1. Toda vez que eu tiver 18 Grupos com um valor x (máximo comum) entre eles, devo aplicar o MVTC, 
+que consiste em eu não capitalizar estes valores (de fato), no entanto o contabilizar como tal; 
+
+Ex: a.	Tenho 18 (dezoito) grupos com os seguintes valores para aplicação num dado Sub-Período: 16, 13, 28, 
+18, 200, 45, 15, 45, 39, 40, 90, 23, 45, 18, 13, 67, 120, 18. Qual o MVTC desta série de grupos? 
+
+Fácil: o 13 (que é o máximo valor total comum na série). 
+Isto me diz o seguinte: 
+
+Se eu subtrair 13 de cada um destes 18 valores, ficaria com a nova série: 3, 0, 15, 5, 187, 32, 2, 32, 26, 
+27, 77, 10, 32, 5, 0, 52, 107, 5. 
+
+Quais são as duas possibilidades neste caso: 
+
+Um dos grupos da série ser premiado ou nenhum dos grupos da série ser premiado. 
+No entanto, observem a vantagem deste método em cada uma das hipóteses; 
+
+	i. Em caso de prêmio de um destes grupos eu receberia ((n * 18) - 13 * 18). 
+
+	Vejamos um exemplo do primeiro grupo: 16 * 18 = 288, no entanto eu apliquei 3 (16 menos 13) ao 
+invés de 16, portanto receberia 3*18=54 e não 288. 
+
+Bom 288 - 54 = 234. Ou seja; 234 seriam o que eu teria deixado de ganhar, mas como eu economizei: 
+13 * 18 = 234, eu, na verdade, não perdi os 234, visto que eu já havia economizado tal valor. 
+
+Com isso deixei de trocar dinheiro, mantive meu caixa menos movimentado, por conseguinte com mais liquidez 
+e ainda economizei esforços com deslocamento e movimentei menos minha tabela de rodízio de Bancas e Pontos.
+
+	ii. Vamos imaginar agora um segundo cenário: 
+
+	O grupo sorteado estava fora desta série de grupos que submeti ao MVTC; neste caso, além das 
+vantagens acima, como deslocamento, economia de esforços e liquidez de caixa, eu, como ganhei fora do 
+universo desta série de 18 grupos, ainda "Ganhei" 234, pois eu deixei de perder, mas computei como investido.
+
+	Na prática isso significa que eu, neste caso específico, juntei ao monte do Capital Subsidiário 
+234. isto é magnífico!
+
+
+
+Como Implementar:
+
+	1. A primeira coisa que deve ser feita é o cálculo antecipado dos débitos para o sub-período, 
+fazendo uma correspondência entre a carência atual e o índice na tabela de capitalização. 
+
+Ou seja; quando uma determinada série tiver com carência = 3, deve-se buscar a célula de índice 3 na 
+tabela MapaCapi. 
+
+	Para facilitar, fazemos esta conta num array multidimensional até que se complete todo o débito dos 
+grupos e depois gravamos numa tabela de banco de dados com os índices do array somado com 1, pois a tabela 
+tem base 1 e a matriz ( array ) tem base zero.
+
+	2. Feito isso, temos os débitos antecipados para a aplicação no sub-período em questão, quando, 
+efetivamente faremos a dedução do débito redundante.
+
+	a. Primeiro separamos os 18 maiores débitos previstos, depois separamos o menos deles (que é o MVTC) 
+e o subtraímos dos débitos previstos destes 18 grupos;
+
+	b. Depois verificamos se ainda temos dentre os dezoitos maiores restantes, todos os grupos com valor 
+superior a zero. Em caso positivo, repetimos o processo até que não tenhamos mais do que 17 grupos com 
+valores maiores que zero.

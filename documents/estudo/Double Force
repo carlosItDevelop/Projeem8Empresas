@@ -1,0 +1,67 @@
+Adaptar à introdução
+
+
+Basicamente o que precisamos é de uma coisa parecida com um ataque de força bruta, mas nada de estragar ou 
+roubar nada. Eu poderia chamar essa técnica também de Double-Force. O que vem a ser isso e como se aplica 
+no PROJEEM?
+
+Vejamos: 
+
+Imaginem um jogo de dados que pague R$ 4,00 a cada número que você acerta. 
+
+Ou seja; a banca fica, em média com R$ 2,00 e premia R$ 4,00 a cada rodada, visto que temos 
+6 possibilidades  por mão. 
+
+Então, sigamos com o raciocínio:
+
+1. Na primeira rodada você aposta R$ 1,00 no lado 2 e mais R$ 1,00 no lado 3;
+
+2. Você perde, então aposta R$ 2,00 nos mesmos lados do dado; 
+
+Neste momento você acumula de perda R$ 2,00 da primeira rodada e mais R$ 4,00 da segunda, o que somam 
+R$ 6,00. Porém como cada real paga R$ 4,00 e você agora está aplicando R$ 2,00 em cada um dos 2 lados 
+(lado 2 e lado 3), então se ganhar, ganhará R$ 8,00, visto que eles pagam R$ 4,00 por cada real apostado.
+
+Bom, mas você perdeu novamente. 
+Vejamos 3 fatores importantes após esta rodada;
+
+	a. O seu capital de giro está subindo e você precisa ganhar logo, pois corre o risco de ficar sem 
+grana para continuar com esta técnica de força-bruta;
+
+	b. Se você dobrar a aposta neste momento, tendo acumulado R$ 6,00 de perda e, agora, apostando mais 
+R$ 4,00 x 2 lados, o que dariam R$ 8,00 mais os R$ 6,00 acumulados = R$ 14,00 você ainda lucraria R$ 2,00 em 
+caso de acerto, mas R$ 2,00 de lucro em qualquer rodada de acerto é muito pouco para o esforço feito, além 
+de não ser proporcional ao tempo de aplicação. Imagina que cada rodada só fosse realizada uma vez por dia? 
+
+Você poderia ganhar R$ 2,00 em 1 dia, mas também poderia levar 20 dias para lucrar os mesmos R$ 2,00. 
+Ou seja; isso não é proporcionalmente correto. 
+
+O correto seria que fosse indiferente a quantidade de dias ou apostas que fizesse, desde que, quando 
+ganhasse, o lucro fosse proporcional ao tempo ou número de aposta. 
+
+	c. Bom, apesar de saber (de acordo com a técnica de SABER O QUE NÃO VAI DAR) que você ganhará 
+um dia ou numa rodada qualquer, pois NÃO HÁ COMO RODAR OS DADOS INFINITAMENTE sem que dê ou o lado 2 
+ou o lado 3, você não sabe quando vai dar, o que inviabiliza o cálculo correto de quanto exatamente você 
+precisaria ter de Capital de Giro para uma implementação desse porte.
+
+Daí entra a magia do PROJEEM, que não trata apenas de aspectos básicos como esses de quanto aplicar, quando 
+ganhar, se ganhar quanto lucrar... e se não der? E quando devo parar? Etc.
+
+O PORJEEM é completo por isso é um projeto e não uma técnica.
+
+Ele vislumbra todas as possibilidades e busca alternativas para as mais impensáveis possibilidades 
+(inclusive de fraudes).
+
+Vejamos algumas técnicas de aplicações do PROJEEM para o jogo de azar (jogo do Bicho);
+
+	1. Quando eu ganhar eu saberei exatamente quanto ganhei por dia ou sub-período de aplicação;
+	2. Eu sempre ganharei, em todas as aplicações;
+	3. Eu nunca ganharei menos do que aplicarei;
+	4. E, o que é mais importante, eu sempre saberei o Capital de Giro de que precisarei;
+
+- Como?
+
+Isto veremos em detalhes, mais pra frente!
+
+
+
